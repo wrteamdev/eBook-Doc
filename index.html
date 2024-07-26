@@ -1,0 +1,613 @@
+<em>
+  <!DOCTYPE HTML>
+  <html>
+
+  <head>
+    <title>Documentation by "WRTeam "</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+
+  <body>
+
+    <section id="header">
+      <header> <span class="image avatar"><img src="images/ic_launcher.png" alt="" /></span>
+        <h4 id="logo"><a href="#">eBook</a></h4>
+      </header>
+      <nav id="nav">
+        <ul>
+          <li><a href="#one" class="active">Introduction</a></li>
+          <li><a href='#setup'>How to setup Flutter</a></li>
+          <li><a href='#flutter2'>Upgrade to flutter 2.x error</a></li>
+          <li><a href='#open'>How to first run project</a></li>
+          <li><a href='#VSCode'>How to first run project in VSCode</a></li>
+          
+          
+          <li><a href='#packagename'>How to change package name</a></li>  <!-- -->
+          <li><a href='#admob'>How to Add Admob Id in Project</a></li>
+          <li><a href='#unity'>How to Add Unity Id in Project</a></li>
+          <li><a href='#database'>How to Add data In Database</a></li>
+          <li><a href='#imageschange'>How to Change images in App</a></li>
+          <li><a href='#applogo'>How To Change app logo</a></li>
+          <li><a href='#font'>How to Change App Font</a></li>
+          <li><a href='#language'>How to Change Language String </a></li>
+          <li><a href='#apk'>How to Generate Release APK</a></li>
+          <li><a href='#support'>Need Support?</a></li>
+          <li><a href='#rating'>Your Feedback</a></li>
+          <li><a href='#contactus'>Contact Us</a></li>
+
+        </ul>
+      </nav>
+
+    </section>
+
+    <div id="wrapper">
+      <div id="main">
+        <section id="one">
+          <div class="container">
+          
+            <header class="major">
+              <h2>eBook</h2>
+            </header>
+            <div class="borderTop">
+							<div class="span-6 colborder info prepend-1">
+								<p class="prepend-top"> <strong> <br>
+										Company: WRTeam <br>
+										Contact: <a href="https://themeforest.net/user/wrteam" style='color:#2889B9'
+											target="_blank">CodeCanyon Profile</a> </strong> </p>
+							</div>
+            <div class="borderTop">
+              <div class="span-12 last">
+                <p class="prepend-top append-0">Thank you for purchasing code. It really means a lot and It's our
+                  pleasure to serve top-notch service to you. Thank you so much for choosing<a href="https://wrteam.in/"
+                    style='color:#3c55d1' target="_blank"> WRTeam </a>. If you have trouble with the code and
+                  documentation please contact to our Support Team <a href="#support" style="color:#3c55d1">Here</a>
+                  </li>.
+
+              </div>
+            </div>
+            <!-- // Setup flutter // -->
+            <section id="setup">
+              <div class="container"> <br>
+                <h2>How to Setup Flutter in Android Studio</h2>
+
+                <ol>
+
+                  <li>Download Lastest Flutter SDK from below link.in that click on flutter_window_xxx.zip button.</li>
+
+                  <li><a href="https://flutter.dev/docs/get-started/install/windows">Flutter sdk Here</a></li>
+                  <br>
+                  <img src="images/setup.png" alt="SmartKit" />
+                  <br><br>
+                  <li>Extract the zip file and copy flutter folder into your desired installation location for the
+                    Flutter SDK (eg. C:\src\flutter; do not install Flutter in a directory like C:\Program Files\).</li>
+                  <br>
+                  <li>Inside Flutter folder find flutter_console.bat. Start it by double-clicking.<\li><br><br>
+                      <img src="images/setup2.png" alt="SmartKit" />
+                      <br>
+                  <li>Now set your enviournment variable</li>
+                  <li>From the Start search bar in , type ‘env’ and select Edit environment variables for your account
+                  </li>
+
+
+                  <br>
+                  <img src="images/path.png" alt="SmartKit" />
+                  <br><br>
+
+                  <li>Under User variables check if there is an entry called Path:</li>
+                  <li>Click on Edit.new Dialog open from it click on new and copy full path to flutter\bin as its value
+                  </li>
+                  <li>Now Restart your pc for changes to take effect</li>
+                  <img src="images/path2.png" alt="SmartKit" /><br><br>
+                  <li>Now check everything is ok or not</li>
+                  <li>open cmd and do following shown in below picture</li><br>
+                  <img src="images/check.png" alt="SmartKit" /><br><br>
+                  <li>Now open Android Studio and create new flutter project then select your flutter sdk file to the
+                    location where we have downloaded earlier and that's it</li>
+                  <br><img src="images/flutter.png" alt="SmartKit" /><br><br>
+
+
+                </ol>
+                <div class="section_bdr"></div>
+                </ul>
+              </div>
+            </section>
+
+            <section id="flutter2">
+							<div class="container"> <br>
+								<h2>Upgrade to flutter 2.x error</h2>
+
+								<ol>
+<li>for upgrade go to terminal in android studio and type flutter upgrade it will automatically pick latest version with stable channel</li>
+								
+									<li>If you have updated flutter 2.x after upgrade run flutter doctor. and in flutter doctor if you see below error like licence status unknown.</li><br>
+									<img src="images/upgrade1.png" alt="eShop" />
+									<br><br>
+									<li>then go to sdk manager from upar right corner then go to android sdk inside that sdk tools and then uncheck hide obsolute package then check android sdk command line tool latest then apply and then ok. it will download latest version  as shown in below fig.</li><br>
+									<img src="images/upgrade2.png" alt="eShop" /><br><br>
+									<li>now run flutter doctor again your error will be removed</li>
+
+								</ol>
+								<div class="section_bdr"></div>
+								</ul>
+							</div>
+						</section>
+
+							<section id="open">
+							<div class="container"> <br>
+								<h2>How to first run project </h2>
+
+								<ol>
+
+									<img src="images/open2.png" alt="eshop" />
+									<br><br>
+									<li>Go to file > open > then choose your downloaded project location then your project will open.and if you see upar right part 'enable dart support' then click that and go to pubspec.yaml file and in uper right part click pub get or package get and then press run button.</li><br>
+									</ol><ol><li><b>If your are getting error then you can perform below hack</b>
+								
+									<li>if in your system firewall is on, then you can temporary disable firewall and then try to run project</li>
+			
+									<li>if your flutter channel is not stable then you need to change it to stable. you can check your flutter channel by terminal. </li>
+									<li>go to android studio in bottom line click on terminal, in terminal write flutter channel.as shown below.</li>
+									<br>
+									<img src="images/ch1.png" alt="eshop" />
+									<br><br>
+									<li>if your are not in stable then write flutter channel stable</li>
+									
+									<li>go to Tools > Flutter > Flutter Clen.</li>
+									<li>go to file > invalidate cache/ restart</li>
+									
+
+								</ol>
+								<div class="section_bdr"></div>
+								</ul>
+							</div>
+						</section>
+
+            <section id="VSCode">
+							<div class="container"> <br>
+								<h2>How to first run project in VSCode</h2>
+
+								<ol>
+                  <li>Visual Studio Code is a lightweight but powerful source code editor(optinal)(for vscode, all above setup for Android Studio are required).</li>
+                  <li>For Download VSCode <a href="https://code.visualstudio.com/Download" style='color:#2889B9'
+                    target="_blank">Click Here</a> </strong> </p></li>
+                    <li>Open vs code and go to terminal option and open terminal </li>
+                 
+									<img src="images/vscode1.png" alt="eshop" />
+									<br><br>
+									<li>Inside Terminal For Run the Application perform this two command 1. flutter pub get (flutter packages get) 2. flutter run </li><br>
+									</ol>
+								<div class="section_bdr"></div>
+								</ul>
+							</div>
+						</section>
+            <section id="packagename">
+							<div class="container"> <br>
+								<h2>How to change package name</h2>
+								<ol>
+									<li>In the Android pane, click on the little gear icon.Uncheck/Deselect the Compact
+										Empty Middle Packages option.</li>
+									<br>
+									<img src="images/packagename_1.png" alt="eShop" />
+									<br><br>
+
+									<li>Your package directory will now be broken up in individual directories.</li><br>
+									<img src="images/packagename_2.png" alt="eShop" />
+									<br><br>
+									<li>Individually select each directory you want to rename, and: Right-click it
+										Select Refactor Click on Rename current In the Pop-up dialog.</li><br>
+									<img src="images/packagename_3.png" alt="eShop" />
+									<br><br>
+
+									<li>Enter the new name and hit Refactor.Allow a minute to let Android Studio update
+										all changes.</li><br>
+									<img src="images/packagename_4.png" alt="eShop" /><br><br>
+
+
+									<li>Now press ctrl + shift + R and replace old packagename with your new packagename
+									</li><br>
+
+									<img src="images/packagename_5.png" alt="eShop" />
+									<br><br>
+
+									<li>For ios open ios > Runner > info.plist > there is the key CFBundleIdentifier
+										change the string value for that as shown in below</li><br>
+                   		<img src="images/packagename_6.png" alt="eShop" />
+									<br><br>
+								
+                  <li>similar if you are using VSCode, for search press ctrl + F search old package name as given files in below image and replace with your package name. </li><br>
+                  <img src="images/package_name1.png" alt="eShop" />
+								</ol>
+								<div class="section_bdr"></div>
+								</ul>
+							</div>
+						</section>
+
+
+
+    <!-- // Admob flutter // -->
+    <section id="admob">
+      <div class="container"> <br>
+      <h5>Google AdMob</h5>
+      <p>
+        To begin, create an <a href="https://apps.admob.com">AdMob</a> account and set
+        up two Ad Units:
+      </p>
+      <ol>
+        <li>Banner Ad</li>
+        <li>Interstitial Ad</li>
+      </ol>
+      Find your app ID here:
+      <a href="https://support.google.com/admob/answer/7356431?hl=en">
+        https://support.google.com/admob/answer/7356431?hl=en </a
+      >.
+      <ol>
+        <br>
+        <li>
+          For <strong>Android</strong>, go to
+          <code>android/app/src/main/AndroidManifest.xml</code> and enter android App Id
+          as shown in below image.
+          <br />
+          <br />
+          <img src="images/admobandroidid.png" />
+        </li>
+        <br />
+        <li>
+          For <strong>IOS</strong>, go to <code>ios/Runner/Info.plist</code> and enter
+          IOS App Id as shown in below image.
+          <br />
+          <br />
+          <img src="images/admobiosid.png" />
+        </li>
+        <br />
+        <li>Add Your BannerAdUnitId for both android and ios as shown in below image in Helper/Constant.dart file.</li>
+        <br>
+        <img src="images/banneradmob.png" alt="eBook" />
+        <br><br>
+        <li>Add Your InterstitialAdUnitID for both android and ios as shown in below image in Helper/Constant.dart file.</li>
+        <br>
+        <img src="images/interstitialadmob.png" alt="eBook" />
+        <br><br>
+      </ol>
+      <div class="section_bdr"></div>
+    </div>
+  </section>
+      <!-- // Unity flutter // -->
+            <section id="unity">
+              <div class="container"> <br>
+                <h4>Unity ads</h4>
+                <h5>Set up Unity Ads in App</h5>
+                            <ul>
+                                <li><a href="https://dashboard.unity3d.com/" style="color: red;">Go to Unity Ads
+                                        Dashboard</a>, Sign in & Create New Project.</li>
+
+                                <img src="images/unity-new-project.png" alt="eBook" />
+                                <br />
+                                <li>
+                                    Go to Monetization > Setup Project & find Ad Units for both Android & iOS Apps
+                                    <img src="images/unity-1.png" alt="eBook" /><br />
+                                    <img src="images/unity-2.png" alt="eBook" /><br />
+                                    <img src="images/unity-3.png" alt="eBook"/><br />
+                                    OR
+                                    <img src="images/unity-4.png" alt="eBook" /><br />
+                                    <img src="images/unity-5.png" alt="eBook" /><br />
+                                    <img src="images/unity-AddUnits.png" alt="eBook" /><br /><br/>
+                                </li>
+                                <ol>
+
+                                  <li>Add Your Unity game id for both android and ios as shown in below image in <code>Helper/Constant.dart </code> file.</li>
+                                  <br>
+                                  <img src="images/unityGame.png" alt="eBook" /><br />
+                                  <br><br>
+                                  <li>Add Your Unity Interstitial placement id for both android and ios as shown in below image in <code>Screens/unityad.dart </code> file.</li>
+                                  <br>
+                                  <img src="images/unityinterstitial.png" alt="eBook" /><br />
+                                  <br><br>
+                                  <li>Add Your Unity Rewards placement id for both android and ios as shown in below image in <code>Screens/unityad.dart</code> file.</li>
+                                  <br>
+                                  <img src="images/unityrewards.png" alt="eBook" /><br />
+                                  <br><br>
+                                  <li>Add Your Unity Banner placement id for both android and ios as shown in below image in <code>widgets/bannerad.dart</code> file.</li>
+                                  <br>
+                                  <img src="images/unitybanner.png" alt="eBook" /><br />
+                                  <br><br>
+                                <li>
+                                    Fill Ads Details for Android & iOS @Admin Panel > Settings > System
+                                    Configurations.
+                                    <img src="images/unityAdsAdminPanel.png" alt="eBook" /><br />
+                                </li>
+                                <li>
+                                    You can Add Test Devices @Unity Ads Dashboard.
+                                    <img src="images/unity-addTestDevice.png"alt="eBook" /><br />
+                                </li>
+                                <li>
+                                    You can Enable Test Mode @Unity Ads Dashboard.
+                                    <img src="images/unity-TestModeEnable.png" alt="eBook" /><br />
+                                </li>
+                                <li>For Further Unity Ads Help, Follow this <a href="http://documentation.cloud.unity3d.com/en/articles/5337189-ad-units-benefits-and-faqs/" style="color: blue;">Link</a></li>
+
+                </ol>
+                </ul>
+              </div>
+            </section>
+
+
+   <!-- // database flutter // -->
+   <section id="database">
+    <div class="container"> <br>
+      <h2>How to Add data In database</h2>
+
+      <ol>
+        <li>Download DB Browser of SQLite.<a
+          href="https://sqlitebrowser.org/dl/" target="_blank" style='color:#3c55d1'> Click Here</a></li>
+          <br>
+          <li>Open a Database with DB Browser of SQLite.</li>
+        <br>
+        <li>First Open lorem_lpsum.db from asset folder and then open table "tbl_category" and add book name and related all data in this given field.</li>
+        <br>
+        <br>
+        <img src="images/database1_.png" alt="eBook" />
+        <br><br>
+        <li>Then Open Table "tbl_detail" and add your data in table </li>
+        <br>
+        <img src="images/database2.png" alt="eBook" />
+        <br><br>
+        <li>Remove existing Columns in Table</li>
+        <br>
+        <img src="images/remove column inDB.png" alt="eBook" />
+        <br><br>
+        <li>add new Columns in Table</li>
+        <br>
+        <img src="images/add column in DBtable.png" alt="eBook" />
+        <br><br>
+      </ol>
+      <div class="section_bdr"></div>
+      </ul>
+    </div>
+  </section>
+  <section id="imageschange">
+    <div class="container"> <br>
+      <h2>How to Change images in App </h2>
+      <ol>
+        <li>For Android, open assets > images > add here your images according to device screen size, if want to replace image than give same name as old existing image and replace it. else you need to add it manually all by searching in .dart file where it's implimented.</li><br>
+        <img src="images/assets_image.png" alt="eShop" />
+        <br><br>
+        </ol>
+      <div class="section_bdr"></div>
+      </ul>
+    </div>
+  </section>
+
+
+
+<section id="applogo">
+							<div class="container"> <br>
+								<h2>How to Change app logo</h2>
+								<ol>
+
+									<li>For Android, open android > app > src > main > res > mipmap add here your logo
+										according to device screen size </li><br>
+									<img src="images/logo_1.png" alt="eShop" />
+									<br><br>
+									<li>For iOS, open ios > Runner > Assets.xcassets > AppIcon.appiconset here you need
+										to put your logo according to diffrent size. </li><br>
+									<img src="images/logo_2.png" alt="eShop" />
+
+								</ol>
+								<div class="section_bdr"></div>
+								</ul>
+							</div>
+						</section>
+
+
+<section id="font">
+							<div class="container"> <br>
+								<h2>How to Change App font</h2>
+								<ol>
+
+									<li>Go to Assets > font folder .here you have to copy your font.now go to
+										pubspec.yaml in font section change your font name as shown in below image.
+									</li><br>
+
+									<img src="images/font.png" alt="eShop" />
+									<br><br>
+
+
+								</ol>
+								<div class="section_bdr"></div>
+								</ul>
+							</div>
+						</section>
+            <section id="language">
+							<div class="container"> <br>
+								<h2>How to Change Language String </h2>
+								<ol>
+									<li>Go to lib > assets > Language > go to your language code.here you can change any string as you want.
+									</li><br>
+									<img src="images/how change language string.png" alt="eShop" />
+									<br><br>
+								</ol>
+								<div class="section_bdr"></div>
+								</ul>
+							</div>
+						</section>
+            <section id="language2">
+							<div class="container"> <br>
+								<h2>How to Add/Remove Language </h2>
+								<ol>
+                  <li>To Add New Languge</li>
+									<ul>
+										<li>If you want to Add new language then copy one json file from language folder
+											and add it to languge folder then rename it to language code of your new
+											language
+										</li>
+
+
+										<li>now open that json file and change value of string to your language string.
+											remember here you need to add all string in file if any one string is
+											missing in any file then when you change that language then it will give you
+											error. so add all string in all json file.</li>
+                		<li>now search in whole project "en", by pressing ctrl shift f. now where you
+											see languge code in list add your new lanaguge code there.</li>
+                    	<br>  <img src="images/change_language1.png" alt="eShop" />
+										<br> <img src="images/change_language2.png" alt="eShop" />
+                    <br> <img src="images/change_language3.png" alt="eShop" />
+                    <br> <img src="images/change_language4.png" alt="eShop" />
+										<br><br>
+                  </ul>
+								
+                  <li>To Remove Languge,  search in whole project "en", by pressing ctrl shift f. now where you see 
+                    languge code in list remove lanaguge code that you don't want.</li>
+                  </ul>
+                    <li</li>
+                    <br> <img src="images/remove_language_1.png" alt="eShop" />
+									</ul>
+              	<br><br>
+								</ol>
+								<div class="section_bdr"></div>
+								</ul>
+							</div>
+						</section>
+       
+            <section id="apk">
+              <div class="container">
+                <h2>Generate Release APK</h2>
+                <ol>
+                  <li>In you android studio, right click on you android module of you flutter project.there is option
+                    flutter, click on that inside open in new module.then generate release apk from that new module.
+                  </li>
+
+                  <br>
+                  <img src="images/apk1.png" alt="SmartKit" /><br><br>
+
+
+                  <li>and if in your android studio if flutter option is disable then go to file option in your android
+                    studio inside open then locate your flutter project's android module and open it.now generate relase
+                    apk from that new module.</li>
+                  <br>
+                  <img src="images/apk2.png" alt="SmartKit" /><br><br>
+                  <img src="images/apk3.png" alt="SmartKit" /><br><br>
+                  <li>In Build menu there is option generate signed bundle/apk.</li>
+
+                  <br>
+                  <img src="images/apk4.png" alt="SmartKit" /><br><br>
+
+
+                </ol>
+
+                <p> </p>
+                <div class="section_bdr"></div>
+                </ul>
+              </div>
+            </section>
+            <section id="support">
+              <div class="container"> <br>
+                <h2>Need Support?</h2>
+                <p>Its our pleasure to serve our service and support. please contact our support team.</p>
+                <p>Head of Customer Support : Vijay Vaghela,<br> Skype: <a
+                    href="https://join.skype.com/invite/x4hhJcc6Kenf" target="_blank" style='color:#3c55d1'> Vijay
+                    Vaghela</a></p>
+
+                <p>To help our customers, we constantly be in touch with every customer if they need any assistance
+                  regarding our product.
+                  We offer our customers a support from <strong> Mon – Fri 9.00am to 6.00pm IST (GMT +5.30) – We are a
+                    Team located in India – Asia.</strong></p>
+
+                <p>Typically we reply our customers for all the questions and queries within 24 hours of time via
+                  comments, support forum or emails.</p>
+
+
+                </ul>
+
+              </div>
+              <div class="section_bdr"></div>
+            </section>
+            <section id="rating">
+              <div class="container"> <br>
+                <h2>Your Feedback </h2>
+                <p>Dear valuable customer,
+                  Thank you very much for choosing our product.
+                  It's our pleasure to serve top-notch service to you.
+                  Please give us your honest feedback that will help us to make a more strong and reliable product by
+                  click here <a href="https://codecanyon.net/downloads" style='color:#3c55d1' target="_blank">Rate
+                    Us</a>.
+                  Thank you very much.</p>
+
+
+                </ul>
+              </div>
+              <div class="section_bdr"></div>
+            </section>
+            <section id="contactus">
+              <div class="container"> <br>
+                <h2>Contact Us</h2>
+                <p>WRTeam has creative and dedicated group of developers who are mastered in Apps Developments and Web
+                  Application Development with a niche in delivering quality solutions to customers across the globe.
+                  Contact us today to find out how we can help you or for freelance work.
+                <p>Visit Us : <a href="https://wrteam.in/" target="_blank"><span
+                      style="color:#0e8bcb;">https://wrteam.in</span>
+                  </a>
+                <p>Mail Us : info@wrteam.in</p>
+                <p>Call Us : +91 9033 646589</p>
+                <p>Mail Us : info@wrteam.in</p>
+                </p>
+                <p>Thank you very much.</p>
+                <div class="section_bdr"></div>
+                </ul>
+              </div>
+            </section>
+            <section id="contactus">
+              <div class="container"> <br>
+                <h2>Ratting</h2>
+                <p>If you like our app, we will highly appreciate if you can provide us a rating of 5. You can rate us 
+                  from your CodeCanyon Menu > <a href="https://codecanyon.net/downloads" style='color:#3c55d1' target="_blank">Download page</a>.
+               
+                <div class="section_bdr"></div>
+                </ul>
+              </div>
+            </section>
+
+
+          </div>
+
+          <!-- Footer -->
+          <section id="footer">
+            <div class="container">
+              <ul class="copyright">
+                <li>
+                  <h3><span style="color:#2889B9;font-style:italic">WRTeam</span>
+                </li>
+                <!--<li><a href="http://www.viaviweb.in" target="_blank"><span style="color:#9f9f9f;font-style:italic">Viavi Webtech</span></a></li>-->
+              </ul>
+            </div>
+          </section>
+      </div>
+      <!-- Scripts -->
+      <script src="assets/js/jquery.min.js"></script>
+      <script src="assets/js/jquery.scrollzer.min.js"></script>
+      <script src="assets/js/jquery.scrolly.min.js"></script>
+      <script src="assets/js/skel.min.js"></script>
+      <script src="assets/js/util.js"></script>
+      <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+      <script src="assets/js/main.js"></script>
+      <script type="text/javascript">
+        $(document).ready(function () {
+          $(window).scroll(function () {
+            if ($(this).scrollTop() > 100) {
+              $('.scrollup').fadeIn();
+            } else {
+              $('.scrollup').fadeOut();
+            }
+          });
+          $('.scrollup').click(function () {
+            $("html, body").animate({ scrollTop: 0 }, 600);
+            return false;
+          });
+        });
+      </script>
+      <div><a href="#" class="scrollup">Scroll</a></div>
+  </body>
+
+  </html>
+</em>
